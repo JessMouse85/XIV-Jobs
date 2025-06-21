@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'finalf';
+    font-size: 16px;
+    font-weight: 100;
+}
+body {
+    background-image: url("../Images/FFXIVClasses.jpeg");
+    background-size: cover;
+}
+@font-face {
+    font-family: 'finalf';
+    src: url('../fonts/Highwind.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#job-grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    margin: 8px;
+    box-shadow: 5px 5px 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: linear-gradient(darkblue, black) ;
+}
+.jobs {
+    display: grid;
+    grid-template: repeat(12, 1fr) / repeat(3, 1fr);
+    list-style: none;
+}
+.jobs img {
+    width: 48px;
+    height: auto;
+    transition: ease .3s;
+}
+.jobs img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.section-head {
+    margin-top: 8px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px black;
+}
+#page-banner {
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-start;
+    border: 5px solid white;
+    overflow: hidden;
+    border-radius: 20px;
+}
+#page-banner img {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    left: 5%;
+}
+#page-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    margin: 0 auto;
+    color: white;
+    width: 100%;
+    background: linear-gradient(darkblue, black);
+    text-decoration: underline;
+    text-shadow: 4px 4px 8px black;
+    height: 15vh;
+}
+#job-details {
+    display: grid;
+    grid-template: auto auto / 1fr 2fr;
+    text-wrap: wrap;
+    height: 50%;
+    margin: 8px;
+    width: 50%;
+    padding: 16px;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(darkblue, black);
+    color: white;
+}
+#job-details:empty {
+    display: none;
+}
+#job-details div {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 8px;
+    margin-right: 2%;
+    border: 2px solid white;
+    border-radius: 10px
+}
+#job-details h2 {
+    font-size: 4rem;
+    color: lightseagreen;
+    text-decoration: underline;
+}
+#job-details p, strong {
+    font-size: 3rem;
+}
+#job-details strong {
+    text-decoration: underline;
+    color: lightskyblue;
+}
+#job-details img {
+    width: 100%;
+}
+
+.data-display {
+    display: flex;
+}
+.row-2 {
+    grid-column: 1 / 3;
+    display: flex;
+    max-width: 250px;
+    margin: 0 auto;
+    justify-content: center;
+}
