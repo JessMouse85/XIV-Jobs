@@ -82,7 +82,7 @@ const jobs = {
     },
     botanist: {
         name: "Botanist",
-        role: "Gathererg",
+        role: "Gatherer",
         rolecolor: 'orange',
         description: "A gatherer with the ability to detect and harvest lumber, and herbs.",
         startingCity: "Gridania",
@@ -237,7 +237,7 @@ const jobs = {
         name: "Ninja",
         role: "Melee (Physical) Damage",
         rolecolor: 'red',
-        description: "A deadly assassin that stalks the battlefield executing enemies with surgical efficiency. Upgraded from the Rogue Job at Level 10 to 15",
+        description: "A deadly assassin that stalks the battlefield executing enemies with surgical efficiency. Upgraded from the Rogue Job at Level 30",
         startingCity: "Limsa Lominsa",
         icon: "./Resources/Images/ninja.png",
         illustration: "./Resources/Images/glamor/ninja.png"
@@ -400,5 +400,25 @@ jobIcons.forEach(icon => {
         } else {
             jobDetails.innerHTML = `<p>Job data not found!</p>`;
         }
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const jobGrid = document.querySelector('#job-grid-container');
+    const jobIcons = document.querySelectorAll('.job-icon');
+
+    // Toggle hamburger menu
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        jobGrid.classList.toggle('active');
+    });
+
+    // Close menu when a job is clicked
+    jobIcons.forEach(icon => {
+        icon.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            jobGrid.classList.remove('active');
+        });
     });
 });

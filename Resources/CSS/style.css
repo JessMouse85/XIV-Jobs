@@ -133,3 +133,109 @@ body {
     display: flex;
     align-items: flex-start;
 }
+
+.hamburger {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: none;
+    background: black;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.hamburger span {
+    display: block;
+    width: 35px;
+    height: 3px;
+    background: white;
+    margin: 10px auto;
+    transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 1300px){
+    .hamburger{
+        display: block;
+    }
+    #page-banner img {
+        left: 2vw;
+        top: 2vh;
+    }
+    #page-title {
+        font-size: 3.5rem;
+    }
+    #job-details {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #page-banner img{
+        width: 100px;
+        top: 3.5vh;
+        left: 3.5vw;
+    }
+    
+    #job-details {
+        grid-template: auto auto / 1fr 5fr;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .hamburger {
+        display: block;
+    }
+    #page-title {
+        font-size: 2.75rem;
+    }
+    #job-grid-container {
+        display: none;
+        position: absolute;
+        width: 200px;
+        top: 8%;
+        right: 0;
+    }
+    #job-grid-container.active {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #page-title {
+        font-size: 2rem;
+    }
+    #job-details h2 {
+        font-size: 2.75rem;
+    }
+    #job-details strong {
+        font-size: 2rem;
+    }
+    #job-details p {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #job-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #job-details .row-1 {
+        width: 100px;
+    }
+    header img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .hamburger {
+        transform: scale(.5);
+    }
+}
