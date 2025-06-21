@@ -1,4 +1,3 @@
-const basePath = window.location.hostname.includes('github.io') ? '/XIV-Jobs' : '';
 const jobs = {
     alchemist: {
         name: "Alchemist",
@@ -6,8 +5,8 @@ const jobs = {
         role: "Crafter",
         description: "Alchemists brew potions and concoctions, mastering the art of chemical synthesis to create powerful elixirs.",
         startingCity: "Ul'dah",
-        icon: "XIV-Jobs/Resources/images/alchemist.png",
-        illustration: "XIV-Jobs/Resources/images/glamor/alchemist.png"
+        icon: "./Resources/Images/alchemist.png",
+        illustration: "./Resources/Images/glamor/alchemist.png"
     },
     arcanist: {
         name: "Arcanist",
@@ -15,8 +14,8 @@ const jobs = {
         role: "Magic Damage",
         description: "Powerful Magic users. The base class for Summoner (Damage), and Scholar (Healer) which unlock at level 30.",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/arcanist.png",
-        illustration: "./Resources/images/glamor/arcanist.png"
+        icon: "./Resources/Images/arcanist.png",
+        illustration: "./Resources/Images/glamor/arcanist.png"
     },
     archer: {
         name: "Archer",
@@ -24,8 +23,8 @@ const jobs = {
         rolecolor: 'red',
         description: "Skilled Marksman that uses bows to deal damage from afar. Base job for Bard (Physical, Ranged Damage) which becomes available at level 30.",
         startingCity: "Gridania",
-        icon: "./Resources/images/archer.png",
-        illustration: "./Resources/images/glamor/archer.jpg"             
+        icon: "./Resources/Images/archer.png",
+        illustration: "./Resources/Images/glamor/archer.jpg"             
     },
     armorer: {
         name: "Armorer",
@@ -33,8 +32,8 @@ const jobs = {
         rolecolor: 'yellow',
         description: "Armorer's use metals to forge powerful armor and shields",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/armorer.png",
-        illustration: "./Resources/images/glamor/armorer.jpg"
+        icon: "./Resources/Images/armorer.png",
+        illustration: "./Resources/Images/glamor/armorer.jpg"
     },
     astrologian: {
         name: "Astrologian",
@@ -42,8 +41,8 @@ const jobs = {
         rolecolor: 'green',
         description: "Pure healer casting direct healing spells. A Heavensward class unlocked at level 50.",
         startingCity: "Ishgard",
-        icon: "./Resources/images/astrologian.png",
-        illustration: "./Resources/images/glamor/astrologian.jpg"
+        icon: "./Resources/Images/astrologian.png",
+        illustration: "./Resources/Images/glamor/astrologian.jpg"
     },
     bard: {
         name: "Bard",
@@ -51,8 +50,8 @@ const jobs = {
         rolecolor: 'red',
         description: "Talented performer and marksman that deals damage from afar. Can perform songs that increase the capabilities of party members. Upgraded class from Archer at level 30.",
         startingCity: "Gridania",
-        icon: "./Resources/images/bard.png",
-        illustration: "./Resources/images/glamor/bard.png"
+        icon: "./Resources/Images/bard.png",
+        illustration: "./Resources/Images/glamor/bard.png"
     },
     blackmage: {
         name: "Black Mage",
@@ -60,8 +59,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A powerful wizard that casts destructive magic spells. Upgraded class from Thaumaturge at level 30.",
         startingCity: "Ul'dah",
-        icon: "./Resources/images/blackmage.png",
-        illustration: "./Resources/images/glamor/blackmage.jpg"
+        icon: "./Resources/Images/blackmage.png",
+        illustration: "./Resources/Images/glamor/blackmage.jpg"
     },
     blacksmith: {
         name: "Blacksmith",
@@ -69,8 +68,8 @@ const jobs = {
         rolecolor: 'yellow',
         description: "A dedicated crafting job that produces high quality weapons",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/blacksmith.png",
-        illustration: "./Resources/images/glamor/blacksmith.png"
+        icon: "./Resources/Images/blacksmith.png",
+        illustration: "./Resources/Images/glamor/blacksmith.png"
     },
     bluemage: {
         name: "Blue Mage",
@@ -78,8 +77,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A limited class that learns spells from bosses and monsters",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/bluemage.png",
-        illustration: "./Resources/images/glamor/bluemage.jpg"
+        icon: "./Resources/Images/bluemage.png",
+        illustration: "./Resources/Images/glamor/bluemage.jpg"
     },
     botanist: {
         name: "Botanist",
@@ -87,8 +86,8 @@ const jobs = {
         rolecolor: 'orange',
         description: "A gatherer with the ability to detect and harvest lumber, and herbs.",
         startingCity: "Gridania",
-        icon: "./Resources/images/botanist.png",
-        illustration: "./Resources/images/glamor/botanist.png"
+        icon: "./Resources/Images/botanist.png",
+        illustration: "./Resources/Images/glamor/botanist.png"
     },
     carpenter: {
         name: "Carpenter",
@@ -96,8 +95,8 @@ const jobs = {
         rolecolor: 'yellow',
         description: "A craftsman that specialize in working with wood to make bows, spears and furniture.",
         startingCity: "Gridania",
-        icon: "./Resources/images/carpenter.png",
-        illustration: "./Resources/images/glamor/carpenter.png"
+        icon: "./Resources/Images/carpenter.png",
+        illustration: "./Resources/Images/glamor/carpenter.png"
     },
     conjurer: {
         name: "Conjurer",
@@ -105,8 +104,8 @@ const jobs = {
         rolecolor: 'green',
         description: "A pure, direct heal based healer. Base class for White Mage. Unlocks at Level 30.",
         startingCity: "Gridania",
-        icon: "./Resources/images/conjurer.png",
-        illustration: "./Resources/images/glamor/conjurer.jpg"
+        icon: "./Resources/Images/conjurer.png",
+        illustration: "./Resources/Images/glamor/conjurer.jpg"
     },
     culinarian: {
         name: "Culinarian",
@@ -114,8 +113,8 @@ const jobs = {
         rolecolor: 'yellow',
         description: "A master of molecular gastronomy. Prepares meals and drinks that can provide powerful benefits to any that consume them.",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/culinarian.png",
-        illustration: "./Resources/images/glamor/culinarian.png"
+        icon: "./Resources/Images/culinarian.png",
+        illustration: "./Resources/Images/glamor/culinarian.png"
     },
     dancer: {
         name: "Dancer",
@@ -123,8 +122,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A deadly dancing warrior that uses their dancing skills to deadly effect, while also providing support for their party",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/dancer.png",
-        illustration: "./Resources/images/glamor/dancer.jpg"
+        icon: "./Resources/Images/dancer.png",
+        illustration: "./Resources/Images/glamor/dancer.jpg"
     },
     darkknight: {
         name: "Dark Knight",
@@ -132,8 +131,8 @@ const jobs = {
         rolecolor: 'blue',
         description: "A deadly warrior that rushes head-on into battle and defends their partners. Available at Level 50.",
         startingCity: "Ishgard",
-        icon: "./Resources/images/darkknight.png",
-        illustration: "./Resources/images/glamor/darkknight.jpg"
+        icon: "./Resources/Images/darkknight.png",
+        illustration: "./Resources/Images/glamor/darkknight.jpg"
     },
     dragoon: {
         name: "Dragoon",
@@ -141,8 +140,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A noble warrior with the spirit of a dragon that uses a lance to crush their foes. Upgraded class from the Lancer class acquired at Level 30",
         startingCity: "Gridania",
-        icon: "./Resources/images/dragoon.png",
-        illustration: "./Resources/images/glamor/dragoon.jpg"
+        icon: "./Resources/Images/dragoon.png",
+        illustration: "./Resources/Images/glamor/dragoon.jpg"
     },
     fisher: {
         name: "Fisher",
@@ -150,8 +149,8 @@ const jobs = {
         rolecolor: 'orange',
         description: "A hard-working and determined gatherer of resources that travels the world and beyond to catch the tastiest fish!",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/fisher.png",
-        illustration: "./Resources/images/glamor/fisher.png"
+        icon: "./Resources/Images/fisher.png",
+        illustration: "./Resources/Images/glamor/fisher.png"
     },
     gladiator: {
         name: "Gladiator",
@@ -159,8 +158,8 @@ const jobs = {
         rolecolor: 'blue',
         description: "A brave and battle hardned warrior that defends their allies in battle. Base class for the Paladin class. Unlocks at Level 30.",
         startingCity: "Ul'dah",
-        icon: "./Resources/images/gladiator.png",
-        illustration: "./Resources/images/glamor/gladiator.jpg"
+        icon: "./Resources/Images/gladiator.png",
+        illustration: "./Resources/Images/glamor/gladiator.jpg"
     },
     goldsmith: {
         name: "Goldsmith",
@@ -168,8 +167,8 @@ const jobs = {
         rolecolor: 'yellow',
         description: "A talented artisan that crafts jewelery and accesories of the highest quality.",
         startingCity: "Ul'dah",
-        icon: "./Resources/images/goldsmith.png",
-        illustration: "./Resources/images/glamor/goldsmith.png"
+        icon: "./Resources/Images/goldsmith.png",
+        illustration: "./Resources/Images/glamor/goldsmith.png"
     },
     gunbreaker: {
         name: "Gun Breaker",
@@ -177,8 +176,8 @@ const jobs = {
         rolecolor: 'blue',
         description: "A warrior skilled with the gunblade that uses their unique and powerful weapons to defend their allies. Available at Level 60.",
         startingCity: "Gridania",
-        icon: "./Resources/images/gunbreaker.png",
-        illustration: "./Resources/images/glamor/gunbreaker.jpg"
+        icon: "./Resources/Images/gunbreaker.png",
+        illustration: "./Resources/Images/glamor/gunbreaker.jpg"
     },
     lancer: {
         name: "Lancer",
@@ -186,8 +185,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A warrior skilled with the lance and spear. Base job for the Dragoon which unlocks at Level 30.",
         startingCity: "Gridania",
-        icon: "./Resources/images/lancer.png",
-        illustration: "./Resources/images/glamor/lancer.jpg"
+        icon: "./Resources/Images/lancer.png",
+        illustration: "./Resources/Images/glamor/lancer.jpg"
     },
     leatherworker: {
         name: "Leatherworker",
@@ -195,8 +194,8 @@ const jobs = {
         rolecolor: 'yellow',
         description: "An artisan skilled in working with animal skins and leather to produce sturdy armor for adventurers.",
         startingCity: "Gridania",
-        icon: "./Resources/images/leatherworker.png",
-        illustration: "./Resources/images/glamor/leatherworker.png"
+        icon: "./Resources/Images/leatherworker.png",
+        illustration: "./Resources/Images/glamor/leatherworker.png"
     },
     machinist: {
         name: "Machinist",
@@ -204,8 +203,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A gunslinger that wreaks havoc on their enemies with powerful firearms. Available at Level 50.",
         startingCity: "Ishgard",
-        icon: "./Resources/images/machinist.png",
-        illustration: "./Resources/images/glamor/machinist.jpg"
+        icon: "./Resources/Images/machinist.png",
+        illustration: "./Resources/Images/glamor/machinist.jpg"
     },
     marauder: {
         name: "Marauder",
@@ -213,8 +212,8 @@ const jobs = {
         rolecolor: 'blue',
         description: "A battle-hardened warrior that uses their physicality and ferocity to defend their allies in battle. Base job for the Warrior class which unlocks at level 30.",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/marauder.png",
-        illustration: "./Resources/images/glamor/marauder.jpg"
+        icon: "./Resources/Images/marauder.png",
+        illustration: "./Resources/Images/glamor/marauder.jpg"
     },
     miner: {
         name: "Miner",
@@ -222,8 +221,8 @@ const jobs = {
         rolecolor: 'orange',
         description: "An intrepid seeker of minerals and metals that travels the world and beyond to get precious resources used to create powerful items.",
         startingCity: "Ul'dah",
-        icon: "./Resources/images/miner.png",
-        illustration: "./Resources/images/glamor/miner.png"
+        icon: "./Resources/Images/miner.png",
+        illustration: "./Resources/Images/glamor/miner.png"
     },
     monk: {
         name: "Monk",
@@ -231,8 +230,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A master of hand-to-hand combat that uses their martial arts knowledge to inflict damage on their foes. Advanced job for the pugilist class. Unlocks at Level 30",
         startingCity: "Ul'dah",
-        icon: "./Resources/images/monk.png",
-        illustration: "./Resources/images/glamor/monk.jpg"
+        icon: "./Resources/Images/monk.png",
+        illustration: "./Resources/Images/glamor/monk.jpg"
     },
     ninja: {
         name: "Ninja",
@@ -240,8 +239,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A deadly assassin that stalks the battlefield executing enemies with surgical efficiency. Upgraded from the Rogue Job at Level 10 to 15",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/ninja.png",
-        illustration: "./Resources/images/glamor/ninja.png"
+        icon: "./Resources/Images/ninja.png",
+        illustration: "./Resources/Images/glamor/ninja.png"
     },
     paladin: {
         name: "Paladin",
@@ -249,8 +248,8 @@ const jobs = {
         rolecolor: 'blue',
         description: "A devout and just holy warrior that uses their strength and faith to protect their allies. Upgraded from Gladiator at Level 30.",
         startingCity: "Ul'dah",
-        icon: "./Resources/images/paladin.png",
-        illustration: "./Resources/images/glamor/paladin.jpg"
+        icon: "./Resources/Images/paladin.png",
+        illustration: "./Resources/Images/glamor/paladin.jpg"
     },
     pictomancer: {
         name: "Pictomancer",
@@ -258,8 +257,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A powerful mage using creative sorcery to damage foes from afar. Available at level 80.",
         startingCity: "Gridania",
-        icon: "./Resources/images/pictomancer.png",
-        illustration: "./Resources/images/glamor/pictomancer.jpg"
+        icon: "./Resources/Images/pictomancer.png",
+        illustration: "./Resources/Images/glamor/pictomancer.jpg"
     },
     pugilist: {
         name: "Pugilist",
@@ -267,8 +266,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A student of the art of fighting. Training in the ways of powerful martial arts masters. Base job for Monk. Upgrades at Level 30",
         startingCity: "Ul'dah",
-        icon: "./Resources/images/pugilist.png",
-        illustration: "./Resources/images/glamor/pugilist.jpg"
+        icon: "./Resources/Images/pugilist.png",
+        illustration: "./Resources/Images/glamor/pugilist.jpg"
     },
     reaper: {
         name: "Reaper",
@@ -276,8 +275,8 @@ const jobs = {
         rolecolor: 'red',
         description: "An imposing warrior that uses thier intimidating war scythes to deal heavy damage. Unlocks at Level 70.",
         startingCity: "Ul'dah",
-        icon: "./Resources/images/reaper.png",
-        illustration: "./Resources/images/glamor/reaper.jpg"
+        icon: "./Resources/Images/reaper.png",
+        illustration: "./Resources/Images/glamor/reaper.jpg"
     },
     redmage: {
         name: "Red Mage",
@@ -285,8 +284,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A formidible warrior that lays waste to their enemies using both magic and physical strength. Available at Level 50.",
         startingCity: "Ul'dah",
-        icon: "./Resources/images/redmage.png",
-        illustration: "./Resources/images/glamor/redmage.png"
+        icon: "./Resources/Images/redmage.png",
+        illustration: "./Resources/Images/glamor/redmage.png"
     },
     rogue: {
         name: "Rogue",
@@ -294,8 +293,8 @@ const jobs = {
         rolecolor: 'red', 
         description: "A resourceful opportunist that strikes with precision to conquer their foes. Base Job for Ninja which unlocks at Level 10 to 15.",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/rogue.png",
-        illustration: "./Resources/images/glamor/rogue.png"
+        icon: "./Resources/Images/rogue.png",
+        illustration: "./Resources/Images/glamor/rogue.png"
     },
     sage: {
         name: "Sage",
@@ -303,8 +302,8 @@ const jobs = {
         rolecolor: 'green',
         description: "A healer that uses powerful barriers to protect and heal their allies. Unlocks at Level 70.",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/sage.png",
-        illustration: "./Resources/images/glamor/sage.jpg"
+        icon: "./Resources/Images/sage.png",
+        illustration: "./Resources/Images/glamor/sage.jpg"
     },
     samurai: {
         name: "Samurai",
@@ -312,8 +311,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A noble warrior skilled in the art of the blade. They slash through enemies with deadly discipline. Available at Level 50.",
         startingCity: "Ul'dah",
-        icon: "./Resources/images/samurai.png",
-        illustration: "./Resources/images/glamor/samurai.png"
+        icon: "./Resources/Images/samurai.png",
+        illustration: "./Resources/Images/glamor/samurai.png"
 
     },
     scholar: {
@@ -322,8 +321,8 @@ const jobs = {
         rolecolor: 'green',
         description: "A learned student of the healing arts that protects their allies with powerful barriers and enchantments. Available at Level 70",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/scholar.png",
-        illustration: "./Resources/images/glamor/scholar.png"
+        icon: "./Resources/Images/scholar.png",
+        illustration: "./Resources/Images/glamor/scholar.png"
     },
     summoner: {
         name: "Summoner",
@@ -331,8 +330,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A mage skilled in the art of summoning powerful primals to come to their aid in battle. Unlocks at Level 30.",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/summoner.png", 
-        illustration: "./Resources/images/glamor/summoner.jpg"
+        icon: "./Resources/Images/summoner.png", 
+        illustration: "./Resources/Images/glamor/summoner.jpg"
     },
     thaumaturge: {
         name: "Thaumaturge",
@@ -340,8 +339,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A novice spell-weilder studying the art of black magic. Base job for Black Mage which unlocks at Level 30.",
         startingCity: "Gridania",
-        icon: "./Resources/images/thaumaturge.png",
-        illustration: "./Resources/images/glamor/thaumaturge.jpg"
+        icon: "./Resources/Images/thaumaturge.png",
+        illustration: "./Resources/Images/glamor/thaumaturge.jpg"
     },
     viper: {
         name: "Viper",
@@ -349,8 +348,8 @@ const jobs = {
         rolecolor: 'red',
         description: "A warrior weilding exotic Dual Blades. Skilled in timing and execution. Available at Level 80.",
         startingCity: "Ul'dah",
-        icon: "./Resources/images/viper.png",
-        illustration: "./Resources/images/glamor/viper.jpg"
+        icon: "./Resources/Images/viper.png",
+        illustration: "./Resources/Images/glamor/viper.jpg"
     },
     warrior: {
         name: "Warrior",
@@ -358,8 +357,8 @@ const jobs = {
         rolecolor: 'blue',
         description: "A fierce veteran of combat and stalwart leader that uses their battle expertise to protect their allies. Upgraded from Marauder at Level 30.",
         startingCity: "Limsa Lominsa",
-        icon: "./Resources/images/warrior.png",
-        illustration: "./Resources/images/glamor/warrior.jpg"
+        icon: "./Resources/Images/warrior.png",
+        illustration: "./Resources/Images/glamor/warrior.jpg"
     },
     weaver: {
         name: "Weaver",
@@ -367,8 +366,8 @@ const jobs = {
         rolecolor: 'yellow',
         description: "A craftsman that specialize in working with cloth to make exquisitely tailored armor.",
         startingCity: "Ul'dah",
-        icon: "./Resources/images/weaver.png",
-        illustration: "./Resources/images/glamor/weaver.png"
+        icon: "./Resources/Images/weaver.png",
+        illustration: "./Resources/Images/glamor/weaver.png"
     },
     whitemage: {
         name: "White Mage",
@@ -376,8 +375,8 @@ const jobs = {
         rolecolor: 'green',
         description: "A mage that uses the power of light to directly heal their allies.Upgraded from conjurer job at Level 30.",
         startingCity: "Gridania",
-        icon: "./Resources/images/whitemage.png",
-        illustration: "./Resources/images/glamor/whitemage.jpg"
+        icon: "./Resources/Images/whitemage.png",
+        illustration: "./Resources/Images/glamor/whitemage.jpg"
     },
 };
 
