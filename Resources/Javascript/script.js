@@ -6,8 +6,8 @@ const jobs = {
         role: "Crafter",
         description: "Alchemists brew potions and concoctions, mastering the art of chemical synthesis to create powerful elixirs.",
         startingCity: "Ul'dah",
-        icon: `${basePath}/Resources/images/alchemist.png`,
-        illustration: `${basePath}/Resources/images/glamor/alchemist.png`
+        icon: "XIV-Jobs/Resources/images/alchemist.png",
+        illustration: "XIV-Jobs/Resources/images/glamor/alchemist.png"
     },
     arcanist: {
         name: "Arcanist",
