@@ -1,3 +1,4 @@
+const basePath = window.location.hostname.includes('github.io') ? '/XIV-Jobs' : '';
 const jobs = {
     alchemist: {
         name: "Alchemist",
