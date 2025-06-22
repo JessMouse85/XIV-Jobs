@@ -33,7 +33,7 @@ const jobs = {
         description: "Armorer's use metals to forge powerful armor and shields",
         startingCity: "Limsa Lominsa",
         icon: "./Resources/Images/armorer.png",
-        illustration: "./Resources/Images/glamor/armorer.jpg"
+        illustration: "./Resources/Images/glamor/armorer.png"
     },
     astrologian: {
         name: "Astrologian",
