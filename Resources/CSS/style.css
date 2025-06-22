@@ -172,7 +172,7 @@ body {
 #data-flex-wrapper {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: flex-start;
 }
 
