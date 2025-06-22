@@ -228,6 +228,9 @@ body {
     #page-banner img {
         left: 5%;
     }
+    #data-flex-wrapper {
+        flex-wrap: wrap;
+    }
 }
 @media only screen and (max-width: 1100px) {
     #page-title {
