@@ -205,7 +205,7 @@ body {
         display: block;
     }
     #job-grid-container.active {
-        display: flex;
+        display: grid;
     }
     #job-grid-container {
         display: none;
